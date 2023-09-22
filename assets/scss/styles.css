@@ -61,6 +61,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+
 }
 
 h1, h2, p {
@@ -84,6 +85,8 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+
+
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
