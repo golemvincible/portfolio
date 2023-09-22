@@ -83,6 +83,7 @@ img{
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  overflow: hidden;
 }
 .section-title::after{
   position: absolute;
@@ -352,6 +353,7 @@ img{
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  overflow: hidden;
 }
 .footer__social--parent {
   display: flex;
@@ -398,6 +400,7 @@ img{
 }
 
 .formbold-form-wrapper {
+  align-items: center;
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
@@ -447,7 +450,7 @@ img{
 }
 /*====Resume btm====*/
 .res-btn {
-  margin: 35%;
+  
   text-align: center;
   font-size: 16px;
   height: 20px;
