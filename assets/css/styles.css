@@ -341,7 +341,10 @@ img{
   cursor: pointer;
   margin-left: auto;
 }
-
+/*===Portfolio Image===*/
+.port--img {
+  margin-bottom: 35px;
+}
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
