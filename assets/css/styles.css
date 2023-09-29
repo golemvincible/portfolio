@@ -182,6 +182,41 @@ img{
   background-color: var(--first-color);
 }
 
+/*==Circle img===*/
+.circle--img {
+	height: 10%;
+	width: 100%;
+	display: inline-block;
+	padding: calc(50% - 2px) 0;
+	line-height: 0;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: 50%;
+	border: solid 2px #00a7ee;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	transition: all 0.2s ease-in;
+	
+	&:hover {
+		cursor: pointer;
+		border-color: #ccc;
+		filter: grayscale(20%);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	}
+}
+
+.circle--test{
+  /* margin-left: 18%;    */
+  height: 250px;
+  width: 250px;
+  transition: all 0.2s ease-in;
+  &:hover {
+		cursor: pointer;
+		border: none;
+		filter: grayscale(60%);
+		/* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
+    transform: scale(1.1);
+	}
+}
 /*=== Show menu ===*/
 .show{
   right: 0;
@@ -403,6 +438,7 @@ img{
 
 .formbold-form-wrapper {
   align-items: center;
+  justify-content: center;
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
